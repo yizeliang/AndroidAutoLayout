@@ -8,6 +8,7 @@ import android.util.TypedValue;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.zhy.autolayout.R;
 import com.zhy.autolayout.utils.AutoUtils;
 import com.zhy.autolayout.utils.DimenUtils;
 

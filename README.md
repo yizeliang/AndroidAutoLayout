@@ -1,4 +1,37 @@
 # AndroidAutoLayout
+
+
+## 本人修改记录
+
+
+### 1.0
+
+- 将原widget module中View转移到autolayout库中
+- 加入AutoConstraintLayout(已测,可以使用) 提供地址https://github.com/hongyangAndroid/AndroidAutoLayout/issues/160,提供者@guobinAndroid(https://github.com/guobinAndroid)
+- 上传jitpack仓库
+
+
+## 依赖
+
+```gradle
+
+    //工程gradle
+    allprojects {
+    	repositories {
+    		...
+    		maven { url 'https://jitpack.io' }
+    	}
+    }
+    //module
+    dependencies {
+        compile 'com.github.yizeliang:AndroidAutoLayout:1.0'
+    }
+```
+
+
+# 以下是原作者README
+
+
 [DEPRECATED]Android屏幕适配方案，直接填写设计图上的像素尺寸即可完成适配。
 
 >目前没有精力，已停止维护，使用前务必看明白代码，明确该方案可以解决自身问题，有扩展代码能力，否则不建议使用。
